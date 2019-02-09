@@ -16,6 +16,7 @@ export class HomePage {
 
   btnClicked(){
     console.log("btn is clicked")
+    // this.router.navigate(['heros'])
     this.router.navigateByUrl('heros')
   }
 
