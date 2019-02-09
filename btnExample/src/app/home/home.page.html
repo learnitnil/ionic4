@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Btn Examples
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+ <ion-button (click)="btnClicked()" fill="solid" color="secondary"> 
+   click me 
+  </ion-button>
+
+  <ion-button (click)="iconClicked()">
+    Right ICON
+    <ion-icon name="arrow-forward" slot="end">
+      </ion-icon>
+  </ion-button>
+</ion-content>
