@@ -1,0 +1,7 @@
+{
+  "name": "navWithParamObj",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
